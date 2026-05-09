@@ -12,6 +12,7 @@
 
 # testing
 /coverage
+/html
 
 # next.js
 /.next/
@@ -32,10 +33,39 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
 
+# prisma
+prisma/migrations/*.sql
+
+# storybook
+storybook-static/
+
+# IDE
+.idea/
+.vscode/
+
+# Submodule node_modules
+packages/*/node_modules
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.env*.local
+
+# Chrome Extension build outputs
+src/extensions/chrome/dist/
+src/extensions/chrome/release/
+
+.claude/
+.claude_backup/
+
+# Local preview pages (not committed)
+src/app/(local-preview)/
+
+(showcase)/
+claude-backup.zip
+.dev-pipeline/
