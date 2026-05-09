@@ -1,17 +1,10 @@
 {
-  "name": "saaslens",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Open-source SaaS subscription management platform. Discover unused subscriptions, match payments to apps, and manage users, seats, and costs.",
-  "license": "MIT",
-  "author": "Wondermove-Inc",
+  "name": "saasflow",
+  "description": "Modern SaaS subscription and billing management platform built with Next.js, Prisma, Stripe, and PostgreSQL.",
+  "author": "Adarsh",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wondermove-Inc/saaslens.git"
-  },
-  "homepage": "https://github.com/Wondermove-Inc/saaslens#readme",
-  "bugs": {
-    "url": "https://github.com/Wondermove-Inc/saaslens/issues"
+    "url": "git+https://github.com/aadarshantony/saasflow.git"
   },
   "keywords": [
     "saas",
